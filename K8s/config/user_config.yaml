@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: user-ms
+  namespace: default
+data:
+  MYSQL_PASSWORD: password
+  SERVICE_API_KEY: apikey
+  AUTHENTICATE_SERVICE: authentication-service.default.svc.cluster.local:8080
