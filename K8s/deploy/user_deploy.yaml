@@ -46,7 +46,7 @@ spec:
                   key: SERVICE_API_KEY
             - name: MYSQL_PASSWORD
               valueFrom:
-                configMapKeyRef:
+                secretKeyRef:
                   name: user-ms
                   key: MYSQL_PASSWORD
             - name: AUTHENTICATE_SERVICE
