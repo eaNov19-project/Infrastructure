@@ -1,0 +1,4 @@
+tf/K8s/config/*.json
+tf/K8s/deploy/*.json
+tf/K8s/secret/*.json
+tf/K8s/service/*.json
